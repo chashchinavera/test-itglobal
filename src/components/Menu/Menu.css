@@ -1,0 +1,31 @@
+.menu {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #FCFCFD;
+    height: 100%;
+}
+
+.menu__button {
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #2E3238;
+    letter-spacing: 0.4px;
+}
+
+.menu__button:hover {
+    opacity: 0.8;
+}
+
+.menu__bracket {
+    margin: 0 13px;
+}
