@@ -1,0 +1,147 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 17px 10px 0 20px;
+    box-sizing: border-box;
+    width: calc(100% - 336px);
+}
+
+.content__wrapper {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content__title-wrapper {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.content__title {
+    color: #2E3238;
+    font-weight: 400;
+    margin: 3px 5px 0 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.content__button {
+    min-width: 82px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #D5D8DD;
+    cursor: pointer;
+    color: #2E3238;
+    margin: 0 0 0 15px;
+}
+
+.content__button:hover {
+    opacity: 0.8;
+}
+
+.content__save-wrapper {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.save {
+    min-width: 103px;
+    background-color: #0078CF;
+    color: #fff;
+}
+
+.exit {
+    min-width: 163px;
+    margin: 0 0 0 4px;
+}
+
+.task {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 15px 0 15px 2px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.content__form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 15px;
+    box-sizing: border-box;
+    margin: 10px 0 0;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content__label {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.red {
+    color: #B21F00;
+    margin-right: 5px;
+}
+
+.content__input {
+    margin-top: 9px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #D5D8DD;
+    padding: 0 10px;
+}
+
+.input__search-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 32px;
+    margin: 9px 0 0 0;
+}
+
+.input__search {
+    width: 100%;
+    margin: 0;
+}
+
+.button__search {
+    background-image: url("../../images/button__search.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px;
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #D5D8DD;
+    background-color: #FFF;
+    cursor: pointer;
+    margin: 0px 0 0 3px;
+}
+
+.button__search:hover {
+    opacity: 0.8;
+}
+
+.double {
+    grid-column: span 2;
+}
+
+.button__add {
+    background-image: url("../../images/button__add.svg");
+}
+
+.button__date {
+    background-image: url("../../images/button__date.svg");
+}

@@ -69,9 +69,9 @@
 }
 
 .header__name {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 20px;
-    margin: 5px 8px 0;
+    margin: 5px 8px 0 0;
 }
 
 .header__avatar {
@@ -79,6 +79,7 @@
     height: 32px;
     border-radius: 50px;
     object-fit: cover;
+
 }
 
 .header__settings {
