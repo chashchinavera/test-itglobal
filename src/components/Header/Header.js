@@ -1,8 +1,8 @@
 import { name } from "../../utils/data.js";
 
-const Header = () => {
+const Header = ({ isOpen }) => {
   return (
-    <div className="header">
+    <div className={`header ${isOpen ? "header_fixed" : ""}`}>
       <img
         src="./images/header__logo.svg"
         alt="Логотип"

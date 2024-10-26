@@ -10,6 +10,12 @@ body {
   font-style: normal;
 }
 
+@import url('react-datepicker/dist/react-datepicker.css');
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
 @import url(./vendor/fonts/fonts.css);
 @import url(./vendor/normalize.css);
 @import url(./components/App/App.css);
@@ -20,3 +26,4 @@ body {
 @import url(./components/Search/Search.css);
 @import url(./components/Menu/Menu.css);
 @import url(./components/Content/Content.css);
+@import url(./components/ModalWindow/ModalWindow.css);

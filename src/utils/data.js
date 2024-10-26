@@ -35,4 +35,6 @@ const team = [
   "Алиса Киральчук",
 ];
 
-export { name, menu, team };
+const groups = ["Support Group"];
+
+export { name, menu, team, groups };

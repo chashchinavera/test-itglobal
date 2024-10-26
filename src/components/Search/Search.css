@@ -5,6 +5,10 @@
     height: 66px;
     border-bottom: 1px solid #D5D8DD;
     align-items: center;
+    position: sticky;
+    top: 48px;
+    z-index: 10;
+    background-color: #fff;
 }
 
 .search__input-wrapper {
@@ -53,4 +57,10 @@
 
 .search__unpin:hover {
     opacity: 0.8;
+}
+
+@media (max-width: 991px) {
+    .search {
+        position: static;
+    }
 }

@@ -4,3 +4,8 @@
     flex-direction: row;
     width: 100%;
 }
+
+.main_fixed {
+    position: fixed;
+    top: 48px;
+}
