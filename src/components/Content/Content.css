@@ -374,7 +374,7 @@
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 767.5px) {
     .content {
         width: 100%;
         padding: 0 15px 30px 15px;
