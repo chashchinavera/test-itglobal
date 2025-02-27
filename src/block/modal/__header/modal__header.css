@@ -1,0 +1,12 @@
+.modal__header {
+    align-items: center;
+    padding: 24px 10px 10px 0;
+}
+
+@media screen and (max-width: 767.5px) {
+    .modal__header {
+        
+        padding: 10px 11px 10px 6px;
+        border-bottom: 1px solid #D5D8DD;
+    }
+}

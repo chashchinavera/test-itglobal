@@ -1,0 +1,12 @@
+.modal__title {
+    padding: 6px 2px 2px;
+    margin: 6px 0 2px;
+}
+
+@media screen and (max-width: 767.5px) {
+    .modal__title {
+        font-size: 20px;
+        line-height: 24px;
+        padding: 10px 15px;
+    }
+}

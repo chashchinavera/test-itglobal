@@ -1,0 +1,13 @@
+.form__item_double {
+    grid-column: span 2;
+}
+
+.modal .form__item_double {
+    grid-column: span 1;
+}
+
+@media screen and (max-width: 991px) {
+    .form__item_double {
+        grid-column: span 1;
+    }
+}

@@ -1,0 +1,6 @@
+.search__button_filter {
+    background-image: url("../../../../images/filter.svg");
+    background-size: 16px;
+    border: none;
+    margin: 0 12px 0 7px;
+}

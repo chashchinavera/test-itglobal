@@ -1,0 +1,9 @@
+.search__input_wrapper {
+    border: 1px solid #D5D8DD;
+    border-radius: 4px;
+    max-width: 208px;
+    height: 30px;
+    display: flex;
+    margin-left: 17px;
+    margin-right: 5px;
+}

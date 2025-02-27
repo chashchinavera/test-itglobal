@@ -1,29 +1,104 @@
-body {
-  margin: 0;
-  color: #2E3238;
-  background-color: #fff;
-  font-size: 14px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: 'Montserrat', Arial, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
+/*page*/
+@import url(./block/page/page.css);
 
-@import url('react-datepicker/dist/react-datepicker.css');
-
-.react-datepicker-wrapper {
-  width: 100%;
-}
-
+/*fonts*/
 @import url(./vendor/fonts/fonts.css);
+
+/*normalize*/
 @import url(./vendor/normalize.css);
-@import url(./components/App/App.css);
-@import url(./components/Header/Header.css);
-@import url(./components/Main/Main.css);
-@import url(./components/Aside/Aside.css);
-@import url(./components/Sidebar/Sidebar.css);
-@import url(./components/Search/Search.css);
-@import url(./components/Menu/Menu.css);
-@import url(./components/Content/Content.css);
-@import url(./components/ModalWindow/ModalWindow.css);
+
+/*react-datepicker*/
+@import url('react-datepicker/dist/react-datepicker.css');
+@import url('./block/react-datepicker/-wrapper/react-datepicker-wrapper.css');
+@import url('./block/react-datepicker/-wrapper/-input-container/react-datepicker-input-container.css');
+
+/*app*/
+@import url(./block/app/app.css);
+
+/*aside*/
+@import url(./block/aside/aside.css);
+@import url(./block/aside/__button/aside__button.css);
+@import url(./block/aside/__favorites/aside__favorites.css);
+@import url(./block/aside/__other/aside__other.css);
+
+/*header*/
+@import url(./block/header/header.css);
+@import url(./block/header/__avatar/header__avatar.css);
+@import url(./block/header/__button/header__button.css);
+@import url(./block/header/__input/header__input.css);
+@import url(./block/header/__logo/header__logo.css);
+@import url(./block/header/__name/header__name.css);
+@import url(./block/header/__options/header__options.css);
+@import url(./block/header/__other/header__other.css);
+@import url(./block/header/__person/header__person.css);
+@import url(./block/header/__search/header__search.css);
+@import url(./block/header/__settings/header__settings.css);
+@import url(./block/header/_fixed/header_fixed.css);
+
+/*block*/
+@import url(./block/block/__header/block__header.css);
+@import url(./block/block/__title/block__title.css);
+
+
+/*content*/
+@import url(./block/content/content.css);
+@import url(./block/content/__header/content__header.css);
+@import url(./block/content/__header/_button/content__header_button.css);
+@import url(./block/content/__header/_button/_blue/content__header_button_blue.css);
+@import url(./block/content/__header/_task/content__header_task.css);
+@import url(./block/content/__header/_wrapper/content__header_wrapper.css);
+@import url(./block/content/__shadow/content__shadow.css);
+@import url(./block/content/__title/content__title.css);
+
+/*main*/
+@import url(./block/main/main.css);
+@import url(./block/main/_fixed/main_fixed.css);
+
+/*menu*/
+@import url(./block/menu/menu.css);
+@import url(./block/menu/__bracket/menu__bracket.css);
+@import url(./block/menu/__button/menu__button.css);
+
+/*modal*/
+@import url(./block/modal/modal.css);
+@import url(./block/modal/_active/modal_active.css);
+@import url(./block/modal/__content/modal__content.css);
+@import url(./block/modal/__header/modal__header.css);
+@import url(./block/modal/__header/_task/modal__header_task.css);
+@import url(./block/modal/__title/modal__title.css);
+@import url(./block/modal/__button/modal__button.css);
+@import url(./block/modal/__button/_mobile/modal__button_mobile.css);
+@import url(./block/modal/__button/_close/modal__button_close.css);
+
+/*form*/
+@import url(./block/form/form.css);
+@import url(./block/form/__button/form__button.css);
+@import url(./block/form/__button/_add/form__button_add.css);
+@import url(./block/form/__button/_date/form__button_date.css);
+@import url(./block/form/__button/_delete/form__button_delete.css);
+@import url(./block/form/__button/_search/form__button_search.css);
+@import url(./block/form/__input/form__input.css);
+@import url(./block/form/__input/_wrapper/form__input_wrapper.css);
+@import url(./block/form/__item/form__item.css);
+@import url(./block/form/__item/_double/form__item_double.css);
+@import url(./block/form/__label/form__label.css);
+@import url(./block/form/__required/form__required.css);
+
+/*tag*/
+@import url(./block/tag/tag.css);
+@import url(./block/tag/__button/tag__button.css);
+@import url(./block/tag/_deletable/tag_deletable.css);
+
+/*tags*/
+@import url(./block/tags/__area/tags__area.css);
+
+/*search*/
+@import url(./block/search/search.css);
+@import url(./block/search/__input/search__input.css);
+@import url(./block/search/__input/_wrapper/search__input_wrapper.css);
+@import url(./block/search/__button/search__button.css);
+@import url(./block/search/__button/_filter/search__button_filter.css);
+@import url(./block/search/__button/_unpin/search__button_unpin.css);
+
+/*sidebar*/
+@import url(./block/sidebar/sidebar.css);

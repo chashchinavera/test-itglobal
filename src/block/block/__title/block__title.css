@@ -1,0 +1,7 @@
+.block__title {
+    font-size: 24px;
+    line-height: 32px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

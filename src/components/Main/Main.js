@@ -2,12 +2,12 @@ import Aside from "../Aside/Aside";
 import Content from "../Content/Content";
 import Sidebar from "../Sidebar/Sidebar";
 
-const Main = (props) => {
+const Main = ({ onChange,isOpen }) => {
   return (
-    <div className={`main ${props.isOpen ? "main_fixed" : ""}`}>
+    <div className={`main ${isOpen ? "main_fixed" : ""}`}>
       <Aside />
       <Sidebar />
-      <Content onChange={props.onChange} />
+      <Content onChange={onChange} />
     </div>
   );
 };

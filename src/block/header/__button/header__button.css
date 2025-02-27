@@ -1,0 +1,18 @@
+.header__button {
+    background-image: url("../../../images/search.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px;
+    background-color: #FFF;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    margin: 0 4px 0 8px;
+}
+
+.header__button:hover {
+    opacity: 0.8;
+}

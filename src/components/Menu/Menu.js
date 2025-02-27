@@ -5,11 +5,7 @@ const Menu = () => {
     <div className="menu">
       {menu.map((item, index) => (
         <button className="menu__button" key={index} type="button">
-          <img
-            src="./images/bracket.svg"
-            alt="Скобка"
-            className="menu__bracket"
-          />
+          <img src="./images/bracket.svg" alt="<" className="menu__bracket" />
           {item}
         </button>
       ))}

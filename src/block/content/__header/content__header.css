@@ -1,0 +1,13 @@
+.content__header {
+    padding: 16px 10px 17px;
+    position: sticky;
+    top: 48px;
+    background-color: #FFF;
+    z-index: 10;
+}
+
+@media screen and (max-width: 991px) {
+    .content__header {
+        position: static;
+    }
+}

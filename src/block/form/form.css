@@ -1,0 +1,32 @@
+.form {
+    display: grid;
+    margin: 15px 0 35px 13px;
+    padding: 1px 15px 0 4px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 18px;
+    max-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    top: 50px;
+}
+
+.modal .form {
+    grid-template-columns: 1fr;
+    margin: 6px 0 15px 0px;
+    padding: 1px 0px 0 4px;
+    position: static;
+    top: 0;
+}
+
+@media screen and (max-width: 991px) {
+    .form {
+        grid-template-columns: 1fr;
+        position: static;
+        margin: 15px 0 15px 13px;
+    }
+
+    .modal .form {
+        margin: 0 0 5px 0;
+        padding: 0 10px 0 15px;
+    }
+}

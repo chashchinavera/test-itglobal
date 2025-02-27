@@ -1,0 +1,13 @@
+.menu {
+    height: calc(100% - 114px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #FCFCFD;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 114px;
+    z-index: 8;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}

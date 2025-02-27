@@ -1,0 +1,14 @@
+.tags__area {
+    height: auto;
+    min-height: 32px;
+    max-height: fit-content;
+    display: block;
+    padding: 2px 30px 0px 2px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 767.5px) {
+    .modal .tags__area {
+        padding: 2px 0px 0px 2px;
+    }
+}

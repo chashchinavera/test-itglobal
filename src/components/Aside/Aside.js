@@ -1,8 +1,8 @@
 const Aside = () => {
   return (
     <div className="aside">
-      <button className="aside__button other" type="button" />
-      <button className="aside__button favorites" type="button" />
+      <button className="aside__button aside__other" type="button" />
+      <button className="aside__button aside__favorites" type="button" />
     </div>
   );
 };

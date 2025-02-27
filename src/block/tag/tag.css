@@ -1,0 +1,23 @@
+.tag {
+    border: 1px solid #99D5FF;
+    border-radius: 4px;
+    background-color: #E5F4FF;
+    padding: 0px 5px;
+    margin: 2px 5px 2px 0;
+    height: 24px;
+    max-width: calc(100% - 35px);
+    display: inline-block;
+    position: relative;
+    line-height: 20px;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    user-select: none
+}
+
+@media screen and (max-width: 767.5px) {
+    .modal .tag{
+        margin: 2px 0px 0px 0;
+    }
+}

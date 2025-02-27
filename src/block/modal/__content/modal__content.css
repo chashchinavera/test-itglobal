@@ -1,0 +1,18 @@
+.modal__content {
+    position: static;
+    margin: 16px 0;
+    max-width: 800px;
+    width: 95%;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 767.5px) {
+    .modal__content {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}

@@ -1,0 +1,19 @@
+.search {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height: 66px;
+    border-bottom: 1px solid #D5D8DD;
+    align-items: center;
+    position: sticky;
+    top: 48px;
+    z-index: 9;
+    background-color: #fff;
+    padding: 12px 0 11px;
+}
+
+@media (max-width: 991px) {
+    .search {
+        position: static;
+    }
+}

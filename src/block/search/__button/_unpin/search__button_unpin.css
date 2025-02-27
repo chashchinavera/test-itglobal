@@ -1,0 +1,14 @@
+.search__button_unpin {
+    background-image: url("../../../../images/unpin.svg");
+    background-size: 20px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #D5D8DD;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.search__unpin:hover {
+    opacity: 0.8;
+}

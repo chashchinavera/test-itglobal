@@ -1,0 +1,22 @@
+.aside__button {
+    margin-bottom: 30px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px;
+    background-color: #fff;
+    position: sticky;
+}
+
+.aside__button:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 991px) {
+    .aside__button {
+        position: static;
+    }
+}

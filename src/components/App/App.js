@@ -16,8 +16,8 @@ const App = () => {
 
   return (
     <div className="app">
-      <Header isOpen={isOpen}/>
-      <Main onChange={handleOpen} isOpen={isOpen}/>
+      <Header isOpen={isOpen} />
+      <Main onChange={handleOpen} isOpen={isOpen} />
       <ModalWindow onClose={handleClose} isOpen={isOpen} />
     </div>
   );
